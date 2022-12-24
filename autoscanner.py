@@ -67,7 +67,6 @@ if __name__ == '__main__':
     parser.add_argument('-i','--ip',help='IP address of the host, can be a range or a file containing the IPs',required=True,action='store')
     parser.add_argument('-n','--nmap',help='NMAP scan options to override the default options',required=False,action='store')
     parser.add_argument('-m','--masscan',help='Masscan options to override the default options',required=False,action='store')
-    parser.add_argument('-o','--outfile',help='Output file which gets written to by both nmap',required=False,action='store')
 
     args = parser.parse_args()
 
